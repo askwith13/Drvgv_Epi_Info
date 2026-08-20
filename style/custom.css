@@ -1,0 +1,133 @@
+/* ============================================================================
+   custom.css
+   Replicates the R app's look: shinydashboard skin="blue" (AdminLTE2 palette)
+   + its own www/styles.css. Injected via st.markdown(unsafe_allow_html=True).
+   Streamlit's DOM differs from AdminLTE's, so this targets Streamlit's own
+   structural selectors to approximate the same header/sidebar/box/button
+   language rather than reusing AdminLTE markup directly.
+   ============================================================================ */
+
+:root {
+  --admlte-header: #3c8dbc;
+  --admlte-header-dark: #367fa9;
+  --admlte-sidebar-bg: #222d32;
+  --admlte-sidebar-active: #1e282c;
+  --admlte-sidebar-text: #b8c7ce;
+  --admlte-content-bg: #f4f6f9;
+  --admlte-box-border: #3c8dbc;
+  --admlte-warning: #f39c12;
+  --admlte-success: #00a65a;
+  --admlte-danger: #dd4b39;
+  --admlte-info: #00c0ef;
+  --admlte-purple: #605ca8;
+}
+
+/* App background = AdminLTE content-wrapper */
+[data-testid="stAppViewContainer"] > .main {
+  background-color: var(--admlte-content-bg);
+}
+
+/* Top header bar */
+[data-testid="stHeader"] {
+  background-color: var(--admlte-header);
+}
+.app-topbar {
+  background-color: var(--admlte-header-dark);
+  color: #fff;
+  padding: 10px 16px;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+/* Sidebar = AdminLTE main-sidebar */
+[data-testid="stSidebar"] {
+  background-color: var(--admlte-sidebar-bg);
+}
+[data-testid="stSidebar"] * {
+  color: var(--admlte-sidebar-text);
+}
+[data-testid="stSidebar"] h1,
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3 {
+  color: #fff;
+}
+[data-testid="stSidebar"] .stButton > button {
+  width: 100%;
+  text-align: left;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  color: var(--admlte-sidebar-text);
+  padding: 10px 12px;
+}
+[data-testid="stSidebar"] .stButton > button:hover {
+  background-color: var(--admlte-header-dark);
+  color: #fff;
+}
+[data-testid="stSidebar"] .nav-active > button {
+  background-color: var(--admlte-sidebar-active) !important;
+  color: #fff !important;
+  border-left: 3px solid var(--admlte-box-border);
+}
+
+/* "box" containers (bordered st.container) */
+[data-testid="stVerticalBlockBorderWrapper"] {
+  border-top: 3px solid var(--admlte-box-border) !important;
+  background: #fff;
+}
+.box-title {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.box-title-info { color: var(--admlte-info); }
+
+/* Status labels */
+.label { display: inline-block; padding: 3px 8px; border-radius: 3px; font-size: 12px; font-weight: 700; color: #fff; }
+.label-success { background-color: var(--admlte-success); }
+.label-warning { background-color: var(--admlte-warning); }
+.label-default { background-color: #d2d6de; color: #444; }
+.label-info { background-color: var(--admlte-info); }
+
+.text-muted { color: #6c757d; font-weight: normal; font-size: 12.5px; }
+.text-info { color: var(--admlte-info); font-size: 12.5px; }
+.readonly-box {
+  padding: 8px 10px; font-size: 15px; background: #F2F2F2;
+  border: 1px solid #D9D9D9; border-radius: 4px;
+}
+.readonly-box-empty {
+  padding: 8px 10px; font-size: 14px; font-style: italic; color: #7F7F7F;
+  background: #E9E9E9; border: 1px dashed #BFBFBF; border-radius: 4px;
+}
+.calc-value { color: #1F3864; font-weight: 700; }
+
+/* Button color semantics (Save as Draft = warning, Submit Final = success,
+   destructive = danger), applied via a wrapper div with these classes around
+   st.button */
+div.btn-warning-wrap .stButton > button {
+  background-color: var(--admlte-warning); color: #fff; border: none;
+}
+div.btn-success-wrap .stButton > button {
+  background-color: var(--admlte-success); color: #fff; border: none;
+}
+div.btn-danger-wrap .stButton > button {
+  background-color: var(--admlte-danger); color: #fff; border: none;
+}
+div.btn-primary-wrap .stButton > button {
+  background-color: var(--admlte-header); color: #fff; border: none;
+}
+
+/* Value boxes on the Admin Dashboard */
+.value-box {
+  border-radius: 3px; color: #fff; padding: 14px 18px; margin-bottom: 10px;
+}
+.value-box .vb-number { font-size: 28px; font-weight: 700; }
+.value-box .vb-label { font-size: 13px; opacity: 0.9; }
+.value-box-blue { background-color: var(--admlte-header); }
+.value-box-green { background-color: var(--admlte-success); }
+.value-box-yellow { background-color: var(--admlte-warning); }
+.value-box-purple { background-color: var(--admlte-purple); }
+
+.login-wrapper { margin-top: 24px; margin-bottom: 8px; }

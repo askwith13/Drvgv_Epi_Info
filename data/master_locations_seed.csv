@@ -1,0 +1,692 @@
+state,district,block
+Karnataka,Kodagu,GONIKOPPA
+Karnataka,Kodagu,KUSHALNAGARA
+Karnataka,Kodagu,MADIKERI
+Karnataka,Hassan,ALURU
+Karnataka,Hassan,ARAKALAGUDU
+Karnataka,Hassan,ARASIKERE
+Karnataka,Hassan,BELUR
+Karnataka,Hassan,CHANNARAYAPATTANA
+Karnataka,Hassan,HASSAN
+Karnataka,Hassan,HOLENARASIPURA
+Karnataka,Hassan,KRISHNA
+Karnataka,Hassan,SAKALESHAPURA
+Karnataka,Uttara Kannada,ANKOLA
+Karnataka,Uttara Kannada,BHATKAL
+Karnataka,Uttara Kannada,DANDELI
+Karnataka,Uttara Kannada,HALIYAL
+Karnataka,Uttara Kannada,HONNAVAR
+Karnataka,Uttara Kannada,JOIDA
+Karnataka,Uttara Kannada,KARWAR
+Karnataka,Uttara Kannada,KUMTA
+Karnataka,Uttara Kannada,MUNDGOD
+Karnataka,Uttara Kannada,SIDDAPUR
+Karnataka,Uttara Kannada,SIRSI
+Karnataka,Uttara Kannada,YELLAPUR
+Telangana,Adilabad,Adilabad Rural(New)
+Telangana,Adilabad,Adilabad(Mun)
+Telangana,Adilabad,Bazarhathnoor
+Telangana,Adilabad,Bela
+Telangana,Adilabad,Bheempur
+Telangana,Adilabad,Boath
+Telangana,Adilabad,Gadiguda(New)
+Telangana,Adilabad,Gudihathnoor
+Telangana,Adilabad,Ichoda
+Telangana,Adilabad,Inderavelly
+Telangana,Adilabad,Jainad
+Telangana,Adilabad,Mavala (New)
+Telangana,Adilabad,Narnoor
+Telangana,Adilabad,Neradigonda
+Telangana,Adilabad,Sirikonda(New)
+Telangana,Adilabad,Talamadugu
+Telangana,Adilabad,Tamsi
+Telangana,Adilabad,Utnoor
+Telangana,Badradri,Allapalli
+Telangana,Badradri,Annapureddypalli
+Telangana,Badradri,Aswapuram
+Telangana,Badradri,Aswaraopeta
+Telangana,Badradri,Bhadrachalam
+Telangana,Badradri,Burgampahad
+Telangana,Badradri,Chandrugonda
+Telangana,Badradri,Cherla
+Telangana,Badradri,Chunchupalli
+Telangana,Badradri,Dammapeta
+Telangana,Badradri,Dummugudem
+Telangana,Badradri,Gundala
+Telangana,Badradri,Julurpad
+Telangana,Badradri,Karakagudem
+Telangana,Badradri,Kothagudem
+Telangana,Badradri,Kothagudem(Mun)
+Telangana,Badradri,Laxmidevipalli
+Telangana,Badradri,Manugur(Mun)
+Telangana,Badradri,Manuguru
+Telangana,Badradri,Mulkalapalle
+Telangana,Badradri,Palwancha
+Telangana,Badradri,Palwancha(Mun)
+Telangana,Badradri,Pinapaka
+Telangana,Badradri,Sujathanagar
+Telangana,Badradri,Tekulapalle
+Telangana,Badradri,Yellandu
+Telangana,Badradri,Yellandu(Mun)
+Telangana,Hyderabad,Amberpet
+Telangana,Hyderabad,Ameerpet
+Telangana,Hyderabad,Asifnagar
+Telangana,Hyderabad,Bandlaguda
+Telangana,Hyderabad,Bhadurpura
+Telangana,Hyderabad,Charminar
+Telangana,Hyderabad,Circle I
+Telangana,Hyderabad,Circle II
+Telangana,Hyderabad,Circle III
+Telangana,Hyderabad,Circle IV
+Telangana,Hyderabad,Circle IX
+Telangana,Hyderabad,Circle V
+Telangana,Hyderabad,Circle VI
+Telangana,Hyderabad,Circle VII
+Telangana,Hyderabad,Circle VIII
+Telangana,Hyderabad,Gaddiannaram
+Telangana,Hyderabad,Golconda
+Telangana,Hyderabad,Himayatnagar
+Telangana,Hyderabad,Hyderabad
+Telangana,Hyderabad,Khairtabad
+Telangana,Hyderabad,Malakpet
+Telangana,Hyderabad,Marredpally
+Telangana,Hyderabad,Musheerabad
+Telangana,Hyderabad,Nampally
+Telangana,Hyderabad,Saidabad
+Telangana,Hyderabad,Secunderabad
+Telangana,Hyderabad,Shaikpet
+Telangana,Hyderabad,Tirumalgherry
+Telangana,Jagtial,Beerpur *
+Telangana,Jagtial,Buggaram *
+Telangana,Jagtial,Dharmapuri
+Telangana,Jagtial,Gollapalle
+Telangana,Jagtial,Ibrahimpatnam
+Telangana,Jagtial,Jagitial Rural *
+Telangana,Jagtial,Jagityal(Mun)
+Telangana,Jagtial,Jagtial
+Telangana,Jagtial,Kathlapur
+Telangana,Jagtial,Kodimial
+Telangana,Jagtial,Koratla
+Telangana,Jagtial,Koratla(Mun)
+Telangana,Jagtial,Mallapur
+Telangana,Jagtial,Mallial
+Telangana,Jagtial,Medipalle
+Telangana,Jagtial,Metpalle
+Telangana,Jagtial,Metpalle(Mun)
+Telangana,Jagtial,Pegadapalle
+Telangana,Jagtial,Raikal
+Telangana,Jagtial,Sarangapur
+Telangana,Jagtial,Velgatoor
+Telangana,Jangaon,Bachannapet
+Telangana,Jangaon,Chilpur
+Telangana,Jangaon,Devaruppula
+Telangana,Jangaon,Ghanpur (Station)
+Telangana,Jangaon,Gundala
+Telangana,Jangaon,Jangaon
+Telangana,Jangaon,Jangaon(Mun)
+Telangana,Jangaon,Kodakandla
+Telangana,Jangaon,Lingalaghanpur
+Telangana,Jangaon,Narmetta
+Telangana,Jangaon,Palakurthi
+Telangana,Jangaon,Raghunathpalle
+Telangana,Jangaon,Tharigoppula
+Telangana,Jangaon,Zaffergadh
+Telangana,Jayashankar,Bhupalapally(Mun)
+Telangana,Jayashankar,Bhupalpalle
+Telangana,Jayashankar,Chityal
+Telangana,Jayashankar,Eturnagaram
+Telangana,Jayashankar,Ghanpur (Mulug)
+Telangana,Jayashankar,Govindaraopet
+Telangana,Jayashankar,Kannaigudem*
+Telangana,Jayashankar,Kataram
+Telangana,Jayashankar,Mahadevpur
+Telangana,Jayashankar,Malharrao
+Telangana,Jayashankar,Mangapet
+Telangana,Jayashankar,Mogullapalle
+Telangana,Jayashankar,Mulug
+Telangana,Jayashankar,Mutharam (Mahadevpur)
+Telangana,Jayashankar,Palimela*
+Telangana,Jayashankar,Regonda
+Telangana,Jayashankar,Tadvai
+Telangana,Jayashankar,Tekumatla*
+Telangana,Jayashankar,Venkatapur
+Telangana,Jayashankar,Venkatapuram
+Telangana,Jayashankar,Wazeed
+Telangana,Jogulamba,Alampur
+Telangana,Jogulamba,Dharur
+Telangana,Jogulamba,Gadwal
+Telangana,Jogulamba,Gadwal(Mun)
+Telangana,Jogulamba,Ghattu
+Telangana,Jogulamba,Ieej
+Telangana,Jogulamba,Ieeja(Mun)
+Telangana,Jogulamba,Itikyal
+Telangana,Jogulamba,Kaloor Thimmandoddi
+Telangana,Jogulamba,Maldakal
+Telangana,Jogulamba,Manopad
+Telangana,Jogulamba,Rajoli
+Telangana,Jogulamba,Undavelly
+Telangana,Jogulamba,Waddepalle
+Telangana,Kamareddy,Banswada
+Telangana,Kamareddy,Bhiknoor
+Telangana,Kamareddy,Bibipet
+Telangana,Kamareddy,Bichkunda
+Telangana,Kamareddy,Birkoor
+Telangana,Kamareddy,Domakonda
+Telangana,Kamareddy,Gandhari
+Telangana,Kamareddy,Jukkal
+Telangana,Kamareddy,Kamareddy
+Telangana,Kamareddy,Kamareddy(Mun)
+Telangana,Kamareddy,Lingampet
+Telangana,Kamareddy,Machareddy
+Telangana,Kamareddy,Madnoor
+Telangana,Kamareddy,Nagareddipet
+Telangana,Kamareddy,Nasrullabad
+Telangana,Kamareddy,Nizamsagar
+Telangana,Kamareddy,Pedda Kodapgal
+Telangana,Kamareddy,Pitlam
+Telangana,Kamareddy,Rajampet
+Telangana,Kamareddy,Ramareddy
+Telangana,Kamareddy,Sadasivanagar
+Telangana,Kamareddy,Tadwai
+Telangana,Kamareddy,Yellareddy
+Telangana,Karimnagar,Chigurumamidi
+Telangana,Karimnagar,Choppadandi
+Telangana,Karimnagar,Ellandakunta *
+Telangana,Karimnagar,Gangadhara
+Telangana,Karimnagar,Ganneruvaram *
+Telangana,Karimnagar,Huzurabad
+Telangana,Karimnagar,Huzurabad(Mun)
+Telangana,Karimnagar,Jammikunta
+Telangana,Karimnagar,Jammikunta(Mun)
+Telangana,Karimnagar,Karimnagar
+Telangana,Karimnagar,Karimnagar Rural*
+Telangana,Karimnagar,Karimnagar(Mun)
+Telangana,Karimnagar,Kothapally*
+Telangana,Karimnagar,Manakondur
+Telangana,Karimnagar,Ramadugu
+Telangana,Karimnagar,Saidapur
+Telangana,Karimnagar,Shankarapatnam
+Telangana,Karimnagar,Timmapur (Lmd Colony)
+Telangana,Karimnagar,Veenavanka
+Telangana,Khammam,Bonakal
+Telangana,Khammam,Chinthakani
+Telangana,Khammam,Enkuru
+Telangana,Khammam,Kallur
+Telangana,Khammam,Kamepalle
+Telangana,Khammam,Khammam (Rural)
+Telangana,Khammam,Khammam (Urban)
+Telangana,Khammam,Khammam(Mun)
+Telangana,Khammam,Konijerla
+Telangana,Khammam,Kusumanchi
+Telangana,Khammam,Madhira
+Telangana,Khammam,Madhira(Mun)
+Telangana,Khammam,Mudigonda
+Telangana,Khammam,Nelakondapalle
+Telangana,Khammam,Penuballi
+Telangana,Khammam,Raghunadhapalem
+Telangana,Khammam,Sathupalle
+Telangana,Khammam,Sattupalle(Mun)
+Telangana,Khammam,Singareni
+Telangana,Khammam,Tallada
+Telangana,Khammam,Thirumalayapalem
+Telangana,Khammam,Vemsoor
+Telangana,Khammam,Wyra
+Telangana,Khammam,Yerrupalem
+Telangana,Komaram Bheem,Asifabad
+Telangana,Komaram Bheem,Bejjur
+Telangana,Komaram Bheem,Chintalamanepally
+Telangana,Komaram Bheem,Dahegaon
+Telangana,Komaram Bheem,Jainoor
+Telangana,Komaram Bheem,Kagaznagar
+Telangana,Komaram Bheem,Kagaznagar(Mun)
+Telangana,Komaram Bheem,Kerameri
+Telangana,Komaram Bheem,Kouthala
+Telangana,Komaram Bheem,Lingapur *
+Telangana,Komaram Bheem,Penchicalpet*
+Telangana,Komaram Bheem,Rebbana
+Telangana,Komaram Bheem,Sirpur
+Telangana,Komaram Bheem,Sirpur (T)
+Telangana,Komaram Bheem,Tiryani
+Telangana,Komaram Bheem,Wankdi
+Telangana,Mahabubabad,Bayyaram
+Telangana,Mahabubabad,Chinnagudur
+Telangana,Mahabubabad,Danthalapalle
+Telangana,Mahabubabad,Dornakal
+Telangana,Mahabubabad,Gangaram
+Telangana,Mahabubabad,Garla
+Telangana,Mahabubabad,Gudur
+Telangana,Mahabubabad,Kesamudram
+Telangana,Mahabubabad,Kothagudem
+Telangana,Mahabubabad,Kuravi
+Telangana,Mahabubabad,Mahabubabad
+Telangana,Mahabubabad,Mahabubabad(Mun)
+Telangana,Mahabubabad,Maripeda
+Telangana,Mahabubabad,Narsimhulapet
+Telangana,Mahabubabad,Nellikudur
+Telangana,Mahabubabad,Peddavangara
+Telangana,Mahabubabad,Thorrur
+Telangana,Mahabubnagar,Addakal
+Telangana,Mahabubnagar,Badepally(Mun)
+Telangana,Mahabubnagar,Balanagar
+Telangana,Mahabubnagar,Bhoothpur
+Telangana,Mahabubnagar,Chinnachintakunta
+Telangana,Mahabubnagar,Damaragidda
+Telangana,Mahabubnagar,Devarkadra
+Telangana,Mahabubnagar,Dhanwada
+Telangana,Mahabubnagar,Gandeed
+Telangana,Mahabubnagar,Hanwada
+Telangana,Mahabubnagar,Jadcherla
+Telangana,Mahabubnagar,Jadcherla(Mun)
+Telangana,Mahabubnagar,Koilkonda
+Telangana,Mahabubnagar,Kosgi
+Telangana,Mahabubnagar,Krishna
+Telangana,Mahabubnagar,Maddur
+Telangana,Mahabubnagar,Maganoor
+Telangana,Mahabubnagar,Mahabubnagar(Mun)
+Telangana,Mahabubnagar,Mahbubnagar
+Telangana,Mahabubnagar,Makthal
+Telangana,Mahabubnagar,Marikal
+Telangana,Mahabubnagar,Midjil
+Telangana,Mahabubnagar,Moosapet
+Telangana,Mahabubnagar,Narayanpet
+Telangana,Mahabubnagar,Narayanpet(Mun)
+Telangana,Mahabubnagar,Narva
+Telangana,Mahabubnagar,Nawabpet
+Telangana,Mahabubnagar,Rajapur
+Telangana,Mahabubnagar,Utkoor
+Telangana,Mancherial,Bellampalle
+Telangana,Mancherial,Bellampally(Mun)
+Telangana,Mancherial,Bheemaram (New)
+Telangana,Mancherial,Bhimini
+Telangana,Mancherial,Chennur
+Telangana,Mancherial,Dandepalle
+Telangana,Mancherial,Hajipur (New)
+Telangana,Mancherial,Jaipur
+Telangana,Mancherial,Jannaram
+Telangana,Mancherial,Kannepally (New)
+Telangana,Mancherial,Kasipet
+Telangana,Mancherial,Kotapalle
+Telangana,Mancherial,Luxettipet
+Telangana,Mancherial,Mancherial
+Telangana,Mancherial,Mancherial(Mun)
+Telangana,Mancherial,Mandamarri
+Telangana,Mancherial,Mandamarri(Mun)
+Telangana,Mancherial,Naspur (New)
+Telangana,Mancherial,Nennal
+Telangana,Mancherial,Tandur
+Telangana,Mancherial,Vemanpalle
+Telangana,Medak,Alladurg
+Telangana,Medak,Chegunta
+Telangana,Medak,Chegunta(Mun)
+Telangana,Medak,Chilpched(New)
+Telangana,Medak,Havelighanapur(New)
+Telangana,Medak,Kowdipalle
+Telangana,Medak,Kulcharam
+Telangana,Medak,Manoharabad(New)
+Telangana,Medak,Medak
+Telangana,Medak,Medak(Mun)
+Telangana,Medak,Narsapur
+Telangana,Medak,Narsingi(New)
+Telangana,Medak,Nizampet(New)
+Telangana,Medak,Papannapet
+Telangana,Medak,Ramayampet
+Telangana,Medak,Regode
+Telangana,Medak,Shankarampet (R)
+Telangana,Medak,Shankarampet[a]
+Telangana,Medak,Shivampet
+Telangana,Medak,Tekmal
+Telangana,Medak,Tupran
+Telangana,Medak,Yeldurthy
+Telangana,Medchal,Alwal(Ghmc)
+Telangana,Medchal,Bachupally*
+Telangana,Medchal,Balanagar(Mun)
+Telangana,Medchal,Dundigal Gandimaisamma*
+Telangana,Medchal,Ghatkesar
+Telangana,Medchal,Kapra
+Telangana,Medchal,Kapra(Ghmc)
+Telangana,Medchal,Keesara
+Telangana,Medchal,Kukatpally(Ghmc B)
+Telangana,Medchal,Kukatpally(Ghmc)
+Telangana,Medchal,Malkajigiri(Ghmc)
+Telangana,Medchal,Medchal
+Telangana,Medchal,Medchal(Np)
+Telangana,Medchal,Medipalli
+Telangana,Medchal,Qutbullapur(Ghmc)
+Telangana,Medchal,Qutubullapur
+Telangana,Medchal,Secunderabad(Ghmc)
+Telangana,Medchal,Shamirpet
+Telangana,Medchal,Uppal(Ghmc)
+Telangana,Nagarkurnool,Achampet
+Telangana,Nagarkurnool,Achempeta(Mun)
+Telangana,Nagarkurnool,Amrabad
+Telangana,Nagarkurnool,Balmoor
+Telangana,Nagarkurnool,Bijinapalle
+Telangana,Nagarkurnool,Charakonda
+Telangana,Nagarkurnool,Kalwakurthy
+Telangana,Nagarkurnool,Kalwakurthy(Mun)
+Telangana,Nagarkurnool,Kodair
+Telangana,Nagarkurnool,Kollapur
+Telangana,Nagarkurnool,Kollapur(Mun)
+Telangana,Nagarkurnool,Lingal
+Telangana,Nagarkurnool,Nagarkarnool(Mun)
+Telangana,Nagarkurnool,Nagarkurnool
+Telangana,Nagarkurnool,Padara
+Telangana,Nagarkurnool,Peddakothapalle
+Telangana,Nagarkurnool,Pentlavelli
+Telangana,Nagarkurnool,Tadoor
+Telangana,Nagarkurnool,Telkapalle
+Telangana,Nagarkurnool,Thimmajipet
+Telangana,Nagarkurnool,Uppununthala
+Telangana,Nagarkurnool,Urkonda
+Telangana,Nagarkurnool,Vangoor
+Telangana,Nagarkurnool,Veldanda
+Telangana,Nalgonda,Adavidevulapalli
+Telangana,Nalgonda,Anumula
+Telangana,Nalgonda,Chandam Pet
+Telangana,Nalgonda,Chandur
+Telangana,Nalgonda,Chintha Palle
+Telangana,Nalgonda,Chityala
+Telangana,Nalgonda,Dameracherla
+Telangana,Nalgonda,Devarakonda
+Telangana,Nalgonda,Devarakonda(Mun)
+Telangana,Nalgonda,Gundla Palle
+Telangana,Nalgonda,Gurrampode
+Telangana,Nalgonda,Kangal
+Telangana,Nalgonda,Kattangoor
+Telangana,Nalgonda,Kethepalle
+Telangana,Nalgonda,Konda Mallepally
+Telangana,Nalgonda,Madugulapalli
+Telangana,Nalgonda,Marriguda
+Telangana,Nalgonda,Miryalaguda
+Telangana,Nalgonda,Miryalaguda(Mun)
+Telangana,Nalgonda,Munugode
+Telangana,Nalgonda,Nakrekal
+Telangana,Nalgonda,Nalgonda
+Telangana,Nalgonda,Nalgonda(Mun)
+Telangana,Nalgonda,Nampalle
+Telangana,Nalgonda,Narketpalle
+Telangana,Nalgonda,Neredugommu
+Telangana,Nalgonda,Nidamanur
+Telangana,Nalgonda,Pedda Adiserla Palle
+Telangana,Nalgonda,Peddavoora
+Telangana,Nalgonda,Sali Gouraram
+Telangana,Nalgonda,Thipparthi
+Telangana,Nalgonda,Thripuraram
+Telangana,Nalgonda,Tirumalagiri Sagar
+Telangana,Nalgonda,Vemulapalle
+Telangana,Nirmal,Basar*
+Telangana,Nirmal,Bhainsa
+Telangana,Nirmal,Bhainsa(Mun)
+Telangana,Nirmal,Dasturabad*
+Telangana,Nirmal,Dilawarpur
+Telangana,Nirmal,Kaddam (Peddur)
+Telangana,Nirmal,Khanapur
+Telangana,Nirmal,Kubeer
+Telangana,Nirmal,Kuntala
+Telangana,Nirmal,Laxmanchanda
+Telangana,Nirmal,Lokeswaram
+Telangana,Nirmal,Mamda
+Telangana,Nirmal,Mudhole
+Telangana,Nirmal,Narsapur G*
+Telangana,Nirmal,Nirmal Rural*
+Telangana,Nirmal,Nirmal(Mun)
+Telangana,Nirmal,Pembi*
+Telangana,Nirmal,Sarangapur
+Telangana,Nirmal,Soan*
+Telangana,Nirmal,Tanoor
+Telangana,Nizamabad,Armur
+Telangana,Nizamabad,Armur(Mun)
+Telangana,Nizamabad,Balkonda
+Telangana,Nizamabad,Bheemgal
+Telangana,Nizamabad,Bodhan
+Telangana,Nizamabad,Bodhan(Mun)
+Telangana,Nizamabad,Dharpalle
+Telangana,Nizamabad,Dichpalle
+Telangana,Nizamabad,Indalwai
+Telangana,Nizamabad,Jakranpalle
+Telangana,Nizamabad,Kammarpalle
+Telangana,Nizamabad,Kotgiri
+Telangana,Nizamabad,Makloor
+Telangana,Nizamabad,Mendora
+Telangana,Nizamabad,Mortad
+Telangana,Nizamabad,Mugpal
+Telangana,Nizamabad,Mupkal
+Telangana,Nizamabad,Nandipet
+Telangana,Nizamabad,Navipet
+Telangana,Nizamabad,Nizamabad
+Telangana,Nizamabad,Nizamabad Rural
+Telangana,Nizamabad,Nizamabad(Mun)
+Telangana,Nizamabad,Ranjal
+Telangana,Nizamabad,Rudrur
+Telangana,Nizamabad,Sirkonda
+Telangana,Nizamabad,Varni
+Telangana,Nizamabad,Velpur
+Telangana,Nizamabad,Yedpalle
+Telangana,Nizamabad,Yergatla
+Telangana,Peddapalli,Anthergaon
+Telangana,Peddapalli,Dharmaram
+Telangana,Peddapalli,Eligedu
+Telangana,Peddapalli,Julapalle
+Telangana,Peddapalli,Kamanpur
+Telangana,Peddapalli,Manthani
+Telangana,Peddapalli,Mutharam (Manthani)
+Telangana,Peddapalli,Odela
+Telangana,Peddapalli,Palakurthy *
+Telangana,Peddapalli,Peddapalle
+Telangana,Peddapalli,Peddapalli(Mun)
+Telangana,Peddapalli,Ramagiri * H.Qtrs At Centenary Colony
+Telangana,Peddapalli,Ramagundam
+Telangana,Peddapalli,Ramagundam(Mun)
+Telangana,Peddapalli,Srirampur
+Telangana,Peddapalli,Sultanabad
+Telangana,Rajanna,Boinpalle
+Telangana,Rajanna,Chandurthi
+Telangana,Rajanna,Ellanthakunta
+Telangana,Rajanna,Gambhiraopet
+Telangana,Rajanna,Konaraopeta
+Telangana,Rajanna,Mustabad
+Telangana,Rajanna,Rudrangi *
+Telangana,Rajanna,Sircilla
+Telangana,Rajanna,Sircilla(Mun)
+Telangana,Rajanna,Thangallapalli *
+Telangana,Rajanna,Veernapalli *
+Telangana,Rajanna,Vemulawada
+Telangana,Rajanna,Vemulawada Rural *
+Telangana,Rajanna,Vemulawada(Mun)
+Telangana,Rajanna,Yellareddipet
+Telangana,Rangareddy,Abdullapurmet
+Telangana,Rangareddy,Amangal
+Telangana,Rangareddy,Badangpet(Np)
+Telangana,Rangareddy,Balapur
+Telangana,Rangareddy,Chevella
+Telangana,Rangareddy,Choudergudem*
+Telangana,Rangareddy,Farooqnagar
+Telangana,Rangareddy,Gandipet
+Telangana,Rangareddy,Hayathnagar
+Telangana,Rangareddy,Ibrahimpatnam
+Telangana,Rangareddy,Ibrahimpatnam(Np)
+Telangana,Rangareddy,Kadthal*
+Telangana,Rangareddy,Kandukur
+Telangana,Rangareddy,Keshampet
+Telangana,Rangareddy,Kondurg
+Telangana,Rangareddy,Kothur
+Telangana,Rangareddy,L B Nagar(Ghmc)
+Telangana,Rangareddy,Madgul
+Telangana,Rangareddy,Maheswaram
+Telangana,Rangareddy,Manchal
+Telangana,Rangareddy,Moinabad
+Telangana,Rangareddy,Nandigama
+Telangana,Rangareddy,Pedd Amberpet(Np)
+Telangana,Rangareddy,Rajendra Nagar(Ghmc)
+Telangana,Rangareddy,Saroornagar
+Telangana,Rangareddy,Serilingampally-1(Ghmc)
+Telangana,Rangareddy,Serilingampally-2(Ghmc)
+Telangana,Rangareddy,Shabad
+Telangana,Rangareddy,Shadnagar(Mun)
+Telangana,Rangareddy,Shamshabad
+Telangana,Rangareddy,Shankarpalle
+Telangana,Rangareddy,Talakondapalle
+Telangana,Rangareddy,Yacharam
+Telangana,Sangareddy,Ameenpur(New)
+Telangana,Sangareddy,Andole
+Telangana,Sangareddy,Andole-Jogipet(Mun)
+Telangana,Sangareddy,Gummadidala(New)
+Telangana,Sangareddy,Hathnoora
+Telangana,Sangareddy,Jharasangam
+Telangana,Sangareddy,Jinnaram
+Telangana,Sangareddy,Kalher
+Telangana,Sangareddy,Kandi(New)
+Telangana,Sangareddy,Kangti
+Telangana,Sangareddy,Kohir
+Telangana,Sangareddy,Kondapur
+Telangana,Sangareddy,Manoor
+Telangana,Sangareddy,Mogudampally(New)
+Telangana,Sangareddy,Munpalle
+Telangana,Sangareddy,Nagilgidda(New)
+Telangana,Sangareddy,Narayankhed
+Telangana,Sangareddy,Nyalkal
+Telangana,Sangareddy,Patancheru
+Telangana,Sangareddy,Pulkal
+Telangana,Sangareddy,Raikode
+Telangana,Sangareddy,Ramchandrapuram
+Telangana,Sangareddy,Sadasivpet
+Telangana,Sangareddy,Sadasivpet(Mun)
+Telangana,Sangareddy,Sangareddy
+Telangana,Sangareddy,Sangareddy(Mun)
+Telangana,Sangareddy,Sirgapoor(New)
+Telangana,Sangareddy,Vatpally(New)
+Telangana,Sangareddy,Zaheerabad(Mun)
+Telangana,Sangareddy,Zahirabad
+Telangana,Siddipet,Akkannapet(New)
+Telangana,Siddipet,Bejjanki
+Telangana,Siddipet,Cherial
+Telangana,Siddipet,Chinnakodur
+Telangana,Siddipet,Doultabad
+Telangana,Siddipet,Dubak(Mun)
+Telangana,Siddipet,Dubbak
+Telangana,Siddipet,Gajwel
+Telangana,Siddipet,Gajwel(Mun)
+Telangana,Siddipet,Husnabad
+Telangana,Siddipet,Husnabad(Mun)
+Telangana,Siddipet,Jagdevpur
+Telangana,Siddipet,Koheda
+Telangana,Siddipet,Komuravelli(New)
+Telangana,Siddipet,Kondapak
+Telangana,Siddipet,Maddur
+Telangana,Siddipet,Markook(New)
+Telangana,Siddipet,Mirdoddi
+Telangana,Siddipet,Mulug
+Telangana,Siddipet,Nangnoor
+Telangana,Siddipet,Raipole(New)
+Telangana,Siddipet,Siddipet
+Telangana,Siddipet,Siddipet (Rural)(New)
+Telangana,Siddipet,Siddipet(Mun)
+Telangana,Siddipet,Thogutta
+Telangana,Siddipet,Wargal
+Telangana,Suryapet,Ananthagiri
+Telangana,Suryapet,Atmakur (S)
+Telangana,Suryapet,Chilkur
+Telangana,Suryapet,Chinthalapalem(Mallareddygudem)
+Telangana,Suryapet,Chivvemla
+Telangana,Suryapet,Garidepalle
+Telangana,Suryapet,Huzurnagar
+Telangana,Suryapet,Huzurnagar(Mun)
+Telangana,Suryapet,Jajireddi Gudem
+Telangana,Suryapet,Kodad
+Telangana,Suryapet,Kodad(Mun)
+Telangana,Suryapet,Maddirala
+Telangana,Suryapet,Mattam Palle
+Telangana,Suryapet,Mella Cheruvu
+Telangana,Suryapet,Mothey
+Telangana,Suryapet,Munagala
+Telangana,Suryapet,Nadigudem
+Telangana,Suryapet,Nagaram
+Telangana,Suryapet,Neredcherla
+Telangana,Suryapet,Nuthankal
+Telangana,Suryapet,Palakeedu
+Telangana,Suryapet,Penpahad
+Telangana,Suryapet,Suryapet
+Telangana,Suryapet,Suryapet(Mun)
+Telangana,Suryapet,Thirumalgiri
+Telangana,Suryapet,Thungathurthi
+Telangana,Vikarabad,Bantwaram
+Telangana,Vikarabad,Basheerabad
+Telangana,Vikarabad,Bomraspet
+Telangana,Vikarabad,Dharur
+Telangana,Vikarabad,Doma
+Telangana,Vikarabad,Doulathabad
+Telangana,Vikarabad,Kodangal
+Telangana,Vikarabad,Kotepally
+Telangana,Vikarabad,Kulkacharla
+Telangana,Vikarabad,Marpalle
+Telangana,Vikarabad,Mominpet
+Telangana,Vikarabad,Nawabpet
+Telangana,Vikarabad,Pargi
+Telangana,Vikarabad,Peddemul
+Telangana,Vikarabad,Pudur
+Telangana,Vikarabad,Tandur
+Telangana,Vikarabad,Tandur(Mun)
+Telangana,Vikarabad,Vicarabad
+Telangana,Vikarabad,Vikarabad(Mun)
+Telangana,Vikarabad,Yelal
+Telangana,Wanaparthy,Amarachintha
+Telangana,Wanaparthy,Atmakur
+Telangana,Wanaparthy,Chinnambavi
+Telangana,Wanaparthy,Ghanpur
+Telangana,Wanaparthy,Gopalpeta
+Telangana,Wanaparthy,Kothakota
+Telangana,Wanaparthy,Madanapur
+Telangana,Wanaparthy,Pangal
+Telangana,Wanaparthy,Pebbair
+Telangana,Wanaparthy,Peddamandadi
+Telangana,Wanaparthy,Revally
+Telangana,Wanaparthy,Srirangapur
+Telangana,Wanaparthy,Veepangandla
+Telangana,Wanaparthy,Wanaparthy
+Telangana,Wanaparthy,Wanaparthy(Mun)
+Telangana,Warangal Rural,Atmakur
+Telangana,Warangal Rural,Chennaraopet
+Telangana,Warangal Rural,Damera
+Telangana,Warangal Rural,Duggondi
+Telangana,Warangal Rural,Geesugonda
+Telangana,Warangal Rural,Khanapur
+Telangana,Warangal Rural,Nallabelly
+Telangana,Warangal Rural,Narsampet
+Telangana,Warangal Rural,Narsampet(Mun)
+Telangana,Warangal Rural,Nekkonda
+Telangana,Warangal Rural,Parakala(Mun)
+Telangana,Warangal Rural,Parkal
+Telangana,Warangal Rural,Parvathagiri
+Telangana,Warangal Rural,Raiparthy
+Telangana,Warangal Rural,Sangam
+Telangana,Warangal Rural,Shayampet
+Telangana,Warangal Rural,Wardhannapet
+Telangana,Warangal Urban,Bheemadevarpalle
+Telangana,Warangal Urban,Dharmasagar
+Telangana,Warangal Urban,Elkathurthi
+Telangana,Warangal Urban,Hanamkonda
+Telangana,Warangal Urban,Hasanparthy
+Telangana,Warangal Urban,Inavole
+Telangana,Warangal Urban,Kamalapur
+Telangana,Warangal Urban,Khazipet
+Telangana,Warangal Urban,Khila Warangal*
+Telangana,Warangal Urban,Velair
+Telangana,Warangal Urban,Warangal
+Telangana,Warangal Urban,Warangal(Mun)
+Telangana,Yadadri,Addaguduru
+Telangana,Yadadri,Alair
+Telangana,Yadadri,Atmakur (M)
+Telangana,Yadadri,Bhongir
+Telangana,Yadadri,Bhongir(Mun)
+Telangana,Yadadri,Bibinagar
+Telangana,Yadadri,Bommalaramaram
+Telangana,Yadadri,Choutuppal
+Telangana,Yadadri,M.Turkapalle
+Telangana,Yadadri,Motakonduru
+Telangana,Yadadri,Mothkur
+Telangana,Yadadri,Narayanapur
+Telangana,Yadadri,Pochampalle
+Telangana,Yadadri,Rajapet
+Telangana,Yadadri,Ramannapeta
+Telangana,Yadadri,Valigonda
+Telangana,Yadadri,Yadagirigutta

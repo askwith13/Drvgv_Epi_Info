@@ -1,0 +1,187 @@
+field_id,idx,col_letter,section,field_name,note,denominator,source,input_type,formula_type,is_backend
+f002,2,B,Thematic areas aligned with GOI mandates of TB Elimination Strategies,Name of State,,,,location,,FALSE
+f003,3,C,Thematic areas aligned with GOI mandates of TB Elimination Strategies,Name of District,,,,location,,FALSE
+f004,4,D,Demographic profile,Name of Block,,,,location,,FALSE
+f005,5,E,Demographic profile,Population of the block (2024),,,,numeric,,FALSE
+f006,6,F,Demographic profile,Population of the block (2025),,,,numeric,,FALSE
+f007,7,G,Demographic profile,Population of the block (2026),,,,numeric,,FALSE
+f008,8,H,Demographic profile,Population <14years,,,,numeric,,FALSE
+f009,9,I,Demographic profile,Population >14years,,,,numeric,,FALSE
+f010,10,J,Demographic profile,Total Male population,,,,numeric,,FALSE
+f011,11,K,Demographic profile,Total Female Population,,,,numeric,,FALSE
+f012,12,L,Demographic profile,Urban population (2026),,,,numeric,,FALSE
+f013,13,M,Demographic profile,Total number of City Corporation+ City municipal Council+ Town Municipal Council+ Town Panchayat+ Notified Area Committee+ Contonement Board,,,Directorate of Municipal administration/ District Urban Development Board or Cell/ swachh Bharat Mission (sbmurban.org) (data.opencity.in),numeric,,FALSE
+f014,14,N,Demographic profile,Total Number of Wards,,,,numeric,,FALSE
+f015,15,O,Demographic profile,Rural population (2026),,,,numeric,,FALSE
+f016,16,P,Demographic profile,Total number of Gram Panchayats,,,,numeric,,FALSE
+f017,17,Q,Demographic profile,Total Number of Villages,,,,numeric,,FALSE
+f018,18,R,Demographic profile,Tribal population (2026),,,,numeric,,FALSE
+f019,19,S,Demographic profile,Total number of Tribal Settelements/ Colonies,,,,numeric,,FALSE
+f020,20,T,Demographic profile,Is it a notified Tribal Block? (Yes/ No),,,,yesno,,FALSE
+f021,21,U,Demographic profile,Predominant Type (Agricultural/ Industrial),,,,text,,FALSE
+f022,22,V,Demographic profile,Total number of HRV/ Ward,,,,numeric,,FALSE
+f023,23,W,Demographic profile,Total population of HRV/ Ward (>14 years),,,Total population - estimated children popularion < 15years (Based on the proportion of children <15 years from Census data or NFHS 6 data),numeric,,FALSE
+f024,24,X,Demographic profile,Type of congregate settings,"Dropdown to be provided for each of the congregate settings (urban slum, workplace, prison, orphanage etc.)",,TBMBA Microplan formats,category_breakdown,,FALSE
+f025,25,Y,Demographic profile,Total population of congregate settings,Respective congregate settings population to be pooled as per column X,,TBMBA Microplan formats,category_total,,FALSE
+f026,26,Z,Demographic profile,Type of Vulnerable Population in non HRV/ Ward,"Dropdown to be provided for each of the congregate settings (Diabetics, Alcoholics, Elderly, Smokers, PLHIV, Past H/O TB, Contact of previous TB etc.)",,TBMBA Microplan formats,category_breakdown,,FALSE
+f027,27,AA,Demographic profile,Total Vulnerable population in Non HRV/ Ward,Respective Vulnerable non HRV population to be pooled as per column z,,TBMBA Microplan formats,category_total,,FALSE
+f028,28,AB,Human Resource,STS available (Yes/No),,,,yesno,,FALSE
+f029,29,AC,Human Resource,STLS available (Yes/No),,,,yesno,,FALSE
+f030,30,AD,Human Resource,TB HV available (if applicable),,,,text,,FALSE
+f031,31,AE,Human Resource,No of Medical officer (Reguar + Contractual) Post Sanctioned,,,,numeric,,FALSE
+f032,32,AF,Human Resource,No of Medical officer (Reguar + Contractual) Post Filled,,,,numeric,,FALSE
+f033,33,AG,Human Resource,No of LT (Reguar + Contractual) Post Sanctioned,,,,numeric,,FALSE
+f034,34,AH,Human Resource,No of LT (Reguar + Contractual) Post Filled,,,,numeric,,FALSE
+f035,35,AI,Human Resource,No of X-ray Technitian (Reguar + Contractual) Post Sanctioned,,,,numeric,,FALSE
+f036,36,AJ,Human Resource,No of X-ray Technician (Reguar + Contractual) Post Filled,,,,numeric,,FALSE
+f037,37,AK,Human Resource,No of CHO (Reguar + Contractual) Post Sanctioned,,,,numeric,,FALSE
+f038,38,AL,Human Resource,No of CHO (Reguar + Contractual) Post Filled,,,,numeric,,FALSE
+f039,39,AM,Human Resource,No of ASHAs,,,,numeric,,FALSE
+f040,40,AN,Health Infrastructure,No of AAM-SC (Rural),,,,numeric,,FALSE
+f041,41,AO,Health Infrastructure,No of Urban AAM,,,,numeric,,FALSE
+f042,42,AP,Health Infrastructure,No. of PHC and Urban PHCs,,,,numeric,,FALSE
+f043,43,AQ,Health Infrastructure,No. of CHC and Urban CHCs,,,,numeric,,FALSE
+f044,44,AR,Health Infrastructure,No. of SDH/Taluk Hospital,,,,numeric,,FALSE
+f045,45,AS,Health Infrastructure,No. of DH,,,,numeric,,FALSE
+f046,46,AT,Health Infrastructure,No. of Medical College(Public and Private),,,,numeric,,FALSE
+f047,47,AU,Health Infrastructure,"No. of Grant-in-aid Hospital (e.g. Trust Hospital, NGO)",,,,numeric,,FALSE
+f048,48,AV,Health Infrastructure,"No. of other health facility (Railway, CGHS, ESIC, Defence)",,,,numeric,,FALSE
+f049,49,AW,Health Infrastructure,Number of NGOs in any sector,,,Manual-DMO/SDM/ZP Office,numeric,,FALSE
+f050,50,AX,Health Infrastructure,Total number of NGOs engaged with NTEP,,,,numeric,,FALSE
+f051,51,AY,Health Infrastructure,Number of potential CSR source,,,,numeric,,FALSE
+f052,52,AZ,Health Infrastructure,Number of CSR sources tapped for NTEP,,,,numeric,,FALSE
+f053,53,BA,Health Infrastructure,Number of Fixed X-ray facilities in public (Functional),,,,numeric,,FALSE
+f054,54,BB,Health Infrastructure,Number of Conventional X-ray machines in Public (Functional),,,,numeric,,FALSE
+f055,55,BC,Health Infrastructure,Number of Digital X-ray machines in Public (Functionalt),,,,numeric,,FALSE
+f056,56,BD,Health Infrastructure,Number of HH X-rays available in Public (functional),,,,numeric,,FALSE
+f057,57,BE,Health Infrastructure,Number of Fixed X-ray facilities in Pvt (Functional),,,,numeric,,FALSE
+f058,58,BF,Health Infrastructure,Number of Conventional X-ray machines in Pvt (Functional),,,,numeric,,FALSE
+f059,59,BG,Health Infrastructure,Number of Digital X-ray machines in Pvt (Functionalt),,,,numeric,,FALSE
+f060,60,BH,Health Infrastructure,Number of HH X-rays available in Pvt (functional),,,,numeric,,FALSE
+f061,61,BI,Health Infrastructure,Number of CBNAAT machines,,,,numeric,,FALSE
+f062,62,BJ,Health Infrastructure,Number of functional CBNAAT modules,,,,numeric,,FALSE
+f063,63,BK,Health Infrastructure,Number of TruNAAT machines,,,,numeric,,FALSE
+f064,64,BL,Health Infrastructure,Number of functional TruNAAT modules,,,,numeric,,FALSE
+f065,65,BM,Health Infrastructure,Number of Smear Microscopy Centres,,,,numeric,,FALSE
+f066,66,BN,Screening,Total Target Population to be screened (HRV pop+congregate+Vul in non HRV),,,TBMBA Microplan formats,numeric,,FALSE
+f067,67,BO,Screening,Total Target Population Screened as on dd/mm/yyyy,,,"Nikshay data from Backend (District wise, TB unit wise, Facility wise and HH-Xray/ Fixed X-ray wise)",numeric,,TRUE
+f068,68,BP,Screening,Gap in screening,(Total Target population - Total screened),,Column AS- Column AT,numeric,,FALSE
+f069,69,BQ,Screening,Challenges in screening,,,,textarea,,FALSE
+f070,70,BR,Screening,Proposed solutions,,,,textarea,,FALSE
+f071b,70.3,-,Case Finding,Number of NAAT modules (from Health Infrastructure),Auto-fetched from 'Number of functional CBNAAT modules' + 'Number of functional TruNAAT modules' in Health Infrastructure. Edit those fields if this number needs to change.,,,naat_modules_reference,,FALSE
+f071a,70.5,-,Case Finding,Number of shifts (for NAAT testing capacity),"Enter 1 for a single shift, 2 for two shifts, 3 for three shifts, etc.",,Manual,numeric,,FALSE
+f071,71,BS,Case Finding,Total capacity of NAAT (2026),Capacity = Number of modules* 6 tests per module* 20 working days a month* 12 months (Calculation can be varied as per number of shiftts),,Manual Calculation,naat_capacity_total,,FALSE
+f072,72,BT,Case Finding,Upfront NAAT coverage among total presumptives(2026),Number of Presumptive tested on NAAT,Total Presumptive TB enrolled,Nikshay analytics (backend data),ratio,PCT,TRUE
+f073,73,BU,Case Finding,Upfront NAAT coverage among total notified (Initial mWRD)2026,Number of cases for whom initial mWRD offered (upfront NAAT),Total number of notified cases,Nikshay notification register (Diagnosis cohort),ratio,PCT,FALSE
+f074,74,BV,Case Finding,Upfront NAAT among total microbiologically Tested(2026),Total number of NAAT tests done,Total number of Microbiological test done (NAAT+ Microscopy),Annexure M and NAAT indicators,ratio,PCT,FALSE
+f075,75,BW,Case Finding,PTER (Annualised for 2026),"(Annualised total number of presumptive TB tests done in Smear + NAAT) x 1,00,000",Total population of the block,Annx M & NAAT indicator report,ratio,LAKH,FALSE
+f076,76,BX,Case Finding,NNT on smear,Total number of smear done,Number of smear positives,Annexure M,ratio,RATIO,FALSE
+f077,77,BY,Case Finding,NNT on NAAT,Total number of NAAT tests done,Total number of NAAT positives,NAAT indicators,ratio,RATIO,FALSE
+f078,78,BZ,Case Finding,Challenges in offer of upfront NAAT,,,,textarea,,FALSE
+f079,79,CA,Case Finding,Proposed Solutions,,,,textarea,,FALSE
+f080,80,CB,TB Burden,Total TB patients notified (current facility-2024),,,Nikshay Notification Register 2024 current cohort,numeric,,FALSE
+f081,81,CC,TB Burden,Total TB CNR(current facility)-2024,"(Total number of Notified current cases in 2024) x 1,00,000",Total population of the block in 2024,Nikshay Notification Register 2024 current cohort & Manual data for block population,ratio,LAKH,FALSE
+f082,82,CD,TB Burden,Proportion of block TB notifications to District TB notifications (2024),Total TB patients notified Current in Block,Total TB patients notified Current in district,,ratio,PCT,FALSE
+f083,83,CE,TB Burden,Total TB patients notified (current facility-2025),,,Nikshay Notification Register 2025 current cohort,numeric,,FALSE
+f084,84,CF,TB Burden,Total TB CNR(current facility)-2025,"(Total number of Notified current cases in 2025) x 1,00,000",Total population of the block in 2025,Nikshay Notification Register 2025 current cohort & Manual data for block population,ratio,LAKH,FALSE
+f085,85,CG,TB Burden,Proportion of block TB notifications to District TB notifications (2025),Total TB patients notified Current in Block,Total TB patients notified Current in district,Nikshay Notification register current cohort,ratio,PCT,FALSE
+f086,86,CH,TB Burden,Total TB patients notified (current facility-2026),,,Nikshay Notification Register 2026 current cohort,numeric,,FALSE
+f087,87,CI,TB Burden,Total TB CNR(current facility)-2026 (Annualised),"( Annualised total number of Notified current cases in 2026) x 1,00,000",Total population of the block in 2026,Nikshay Notification Register 2026 current cohort & Manual data for block population,ratio,LAKH,FALSE
+f088,88,CJ,TB Burden,Contribution of block TB notifications to District TB notifications (2026),Total TB patients notified Current in Block,Total TB patients notified Current in district,Nikshay Notification register current cohort,ratio,PCT,FALSE
+f089,89,CK,TB Burden,Total number of DRTB patients notified (2026 Current Cohort),,,Nikshay Notification register current cohort,numeric,,FALSE
+f090,90,CL,TB Burden,Target vs Achievement in %(2024),Number of Notified TB cases in 2024,Notification Targets,"Target is manual collection and achievement is from Nikshay, Notification register diagnosis cohort",ratio,PCT,FALSE
+f091,91,CM,TB Burden,Target vs Achievement in %(2025),Number of Notified TB cases in 2025,Notification Targets,"Target is manual collection and achievement is from Nikshay, Notification register diagnosis cohort",ratio,PCT,FALSE
+f092,92,CN,TB Burden,Target vs Achievement in % (2026),Number of Notified TB cases in 2026,Notification Targets,"Target is manual collection and achievement is from Nikshay, Notification register diagnosis cohort",ratio,PCT,FALSE
+f093,93,CO,TB Burden,Number of Notified TB patients whose location was captured in Nikshay (2026 Current Cohort),,,PMTBMBA register current cohort,numeric,,FALSE
+f094,94,CP,Private Sector engagement,Number of Pvt HFs mapped in Nikshay,,,Health facility service register- Nikshay,numeric,,FALSE
+f095,95,CQ,Private Sector engagement,Number of Pvt HFs notified atleast one TB case (2025),,,Nikshay notification register (Diagnosis cohort) and Spectrum modified diagnosing facility,numeric,,FALSE
+f096,96,CR,Private Sector engagement,Total cases notified by Pvt HFs (2025),,,Nikshay notification register (Diagnosis cohort) and Spectrum modified diagnosing facility,numeric,,FALSE
+f097,97,CS,Private Sector engagement,Number of Pvt Lab mapped in Nikshay,,,Health facility service register- Nikshay,numeric,,FALSE
+f098,98,CT,Private Sector engagement,Number of Pvt Lab notified atleast one TB case (2025),,,Nikshay notification register (Diagnosis cohort)and Spectrum modified diagnosing facility,numeric,,FALSE
+f099,99,CU,Private Sector engagement,Total number of cases notified by Pvt Labs (2025),,,Nikshay notification register (Diagnosis cohort)and Spectrum modified diagnosing facility,numeric,,FALSE
+f100,100,CV,Private Sector engagement,Total number of Pvt Chemists mapped in Nikshay,,,Health facility service register- Nikshay,numeric,,FALSE
+f101,101,CW,Private Sector engagement,Number of Pvt chemists selling ATT(2025),,,,numeric,,FALSE
+f102,102,CX,Case Holding,Proportion of Notified TB Cases Initiated on Treatment (2026 Current),Number of TB cases initiated on Treatment,Total number of notified cases,Nikshay Notification current Register,ratio,PCT,FALSE
+f103,103,CY,Case Holding,Average Time taken to initiate treatment after TB diagnosis (2026 Current),Spectrum Treatment initiation date - Spectrum Date of Diagnosis,,Nikshay Notification current Register,numeric,,FALSE
+f104,104,CZ,Case Holding,Type of Adherence technologies implemented in the blocks,Dropdown to be provided for each type of adherence technology,,Adherence Technologies available as per the program guidelines,multiselect,,FALSE
+f105,105,DA,Case Holding,Number of Digital/ Manual adherence,Accordingly provide the number of patients on each technology,,Nikshay Adherence Register/Dashboard,numeric,,FALSE
+f106,106,DB,Case Holding,Average Adherence of TB Treatment (2026 current Treatment initiated),,,Nikshay Adherence Register/Dashboard,numeric,,FALSE
+f107,107,DC,TB Comorbidities,Number of TB-HIV coinfected patients (2026 curren Cohort),,,Nikshay Comorbidity register,numeric,,FALSE
+f108,108,DD,TB Comorbidities,Number initiated on CPT among TB - HIV coinfected (2026 curren Cohort),,,Nikshay Comorbidity register,numeric,,FALSE
+f109,109,DE,TB Comorbidities,Number initiated on ART among TB - HIV coinfected (2026 curren Cohort),,,Nikshay Comorbidity register,numeric,,FALSE
+f110,110,DF,TB Comorbidities,Number of TB patients using any form of Tobacco (2026 curren Cohort),,,Nikshay Comorbidity register,numeric,,FALSE
+f111,111,DG,TB Comorbidities,Is there Tobacco cessation clinics or centres in the block? (Yes/No),,,,yesno,,FALSE
+f112,112,DH,TB Comorbidities,"If Yes, please give details",,,,textarea,,FALSE
+f113,113,DI,TB Comorbidities,Number of TB patients using any form of Tobacco linked to Tobacco cessasition centre (2026 curren Cohort),,,Nikshay Comorbidity register,numeric,,FALSE
+f114,114,DJ,TB Comorbidities,Number of TB patients consuming Alcohol (2026 curren Cohort),,,Nikshay Comorbidity register,numeric,,FALSE
+f115,115,DK,TB Comorbidities,Is there Alcoholic deaddiction centres in the block? (Yes/No),,,,yesno,,FALSE
+f116,116,DL,TB Comorbidities,"If Yes, please give details",,,,textarea,,FALSE
+f117,117,DM,TB Comorbidities,Number of TB patients consuming alcohol linked to deaddiction centre (2026 curren Cohort),,,Nikshay Comorbidity register,numeric,,FALSE
+f118,118,DN,Differentiated TB Care,Whether Field staff are trained on identifying Red Flag Signs? (Yes/ No),,,,yesno,,FALSE
+f119,119,DO,Differentiated TB Care,Number of Current TB cases assesed for Baseline risk (2026),Number of current TB pts assesed for baseline risk,Total number of notified current cases,Notification Current register ( Notificate date) & Differentiated TB case (Form data),ratio,PCT,FALSE
+f120,120,DP,Differentiated TB Care,Number of High risk patients identified among assesed (2026),total number of high risk cases identified among baseline assesment,Total number of current TB pts assesed for baseline risk,Notification Current register ( Notificate date) & Differentiated TB case (Form data),ratio,PCT,FALSE
+f121,121,DQ,Differentiated TB Care,Number of patients referred among the identified high risk (2026),Total number of pts referred among baseline high risk identified cases,Total number of high risk current TB pts based on baseline risk assesment,Notification Current register ( Notificate date) & Differentiated TB case (Form data),ratio,PCT,FALSE
+f122,122,DR,Differentiated TB Care,Type of facilities which have earmarked beds,Dropdown to be provided for each type of Health Facility,,,multiselect,,FALSE
+f123,123,DS,Differentiated TB Care,Number of beds identified and earmarked for admission of high risk TB patients,Accordingly provide the number of beds for each Health Facility,,,numeric,,FALSE
+f124,124,DT,Differentiated TB Care,Number of DSTB cases (Qtr 4 2025),,,Notification Register current cohort (2025),numeric,,FALSE
+f125,125,DU,Differentiated TB Care,"Type of assesment done (Baseline, FU1st month, FU 2nd month…)",Dropdown to be provided for each type of assesment,,Notification Current register ( Notificate date) & Differentiated TB case (Form data),multiselect,,FALSE
+f126,126,DV,Differentiated TB Care,Proportion of Notified TB cases completeing all Followup Assesment (DSTB 4th Qtr 2025 Current Cohort),Accordingly provide the proportion for each type of assesment,,Notification Current register ( Notificate date) & Differentiated TB case (Form data),numeric,,FALSE
+f127,127,DW,Differentiated TB Care,Challenges in DTBC coverage,,,,textarea,,FALSE
+f128,128,DX,Differentiated TB Care,Proposed solutions,,,,textarea,,FALSE
+f129,129,DY,Post Treatment Followup,Number of DSTB cases with succesful treatment outcome (2024 current cohort),Number of DSTB patients from 2024 Current Cohort with Treatment outcome as Cured or Treatment Complete,Number of patients from 2024 current cohort initiated on DSTB regimenb,Nikshay Notification Current Register 2024,ratio,PCT,FALSE
+f130,130,DZ,Post Treatment Followup,Proportion of DSTB cases with succesful treatment outcome with 6th month post treatment followup done (2024 Current cohort),Number of DSTB cases from 2024 Current cohort with succesful treatment outcome with 6th month post treatment followup done,Total number of DSTB current cases from 2024 with succesful outcome,Post Treatment Folloup report from Nikshay,ratio,PCT,FALSE
+f131,131,EA,Post Treatment Followup,Proportion of DSTB cases with succesful treatment outcome with 12th month post treatment followup done (2024 Current cohort),Number of DSTB cases from 2024 Current cohort with succesful treatment outcome with 12th month post treatment followup done,Total number of DSTB current cases from 2024 with succesful outcome,Post Treatment Folloup report from Nikshay,ratio,PCT,FALSE
+f132,132,EB,Post Treatment Followup,Post Treatment deaths reported within 1 year,,,Post Treatment Folloup report from Nikshay,text,,FALSE
+f133,133,EC,TB Deaths / Critical TB death audits,Number of DSTB deaths in the block(2024),,,Nikshay Notification current Register 2024(both pre treatment deaths and deaths after treatment initiation included),numeric,,FALSE
+f134,134,ED,TB Deaths / Critical TB death audits,Number of DSTB deaths in the block(2025),,,Nikshay Notification current Register 2025(both pre treatment deaths and deaths after treatment initiation included),numeric,,FALSE
+f135,135,EE,TB Deaths / Critical TB death audits,Number of DSTB deaths in the block(2026),,,Nikshay Notification current Register 2026(both pre treatment deaths and deaths after treatment initiation included),numeric,,FALSE
+f136,136,EF,TB Deaths / Critical TB death audits,Number of DRTB deaths in the block(2024),,,Nikshay Notification current Register 2024,numeric,,FALSE
+f137,137,EG,TB Deaths / Critical TB death audits,Number of DRTB deaths in the block(2025),,,Nikshay Notification current Register 2025,numeric,,FALSE
+f138,138,EH,TB Deaths / Critical TB death audits,Number of DRTB deaths in the block(2026),,,Nikshay Notification current Register 2026,numeric,,FALSE
+f139,139,EI,TB Deaths / Critical TB death audits,Number of Early Deaths in the block in 2026 (Within 60days of TB Diagnosis),,,Nikshay Notification current Register 2026(both pre treatment deaths and deaths after treatment initiation included),numeric,,FALSE
+f140,140,EJ,TB Deaths / Critical TB death audits,Number of death audits done out of all deaths (2026),,,Manual & Notification current register,numeric,,FALSE
+f141,141,EK,TB Deaths / Critical TB death audits,"Major Reasons for deaths post death audit (includes clinical, programmatic, systemic or any other reasons)",,,Manual- Death audit report,textarea,,FALSE
+f142,142,EL,TB Deaths / Critical TB death audits,Proposed interventions to mitigate deaths,,,,textarea,,FALSE
+f143,143,EM,Scale up of TB prevention,Number of Pulmonary Index patients notified in 2026 (Current cohort),,--,Notification Current register ( Notification Date ),numeric,,FALSE
+f144,144,EN,Scale up of TB prevention,Estimated number of HHCs,Estimated number of HHCs = (Number of index pul cases * (state average family size-1)),--,1. Notification Current register ( Notification Date) & 2. NFHS data,numeric,,FALSE
+f145,145,EO,Scale up of TB prevention,Actual number (and percentage)of HHCs enrolled in Nikshay (as per Index patient notification cohort-2026 ),Total number of HHCs of pulmonary Tb cases enrolled,Estimated number of HHCs,1. Contact & other risk group SPCR (Notification date of index case) 2. NFHS,ratio,PCT,FALSE
+f146,146,EP,Scale up of TB prevention,Number of eligible HHCs (enrolled-(active TB + TBI Negative)),Eligible= Total - ( Active TB case + CyTB -ve ) among HHC enrolled,--,Contact & other risk group SPCR (Notification date of index case),numeric,,FALSE
+f147,147,EQ,Scale up of TB prevention,Number of eligible HHCs offered chest X-rays,,,Contact & other risk group SPCR (Notification date of index case),numeric,,FALSE
+f148,148,ER,Scale up of TB prevention,Number (and percentage) of HHCs initiated on TPT among eligible HHCs,Total number of HHCs initiated on TPT among eligible,Total number of eligible HHCs,Contact & other risk group SPCR - HHC (Notification date of index case),ratio,PCT,FALSE
+f149,149,ES,Scale up of TB prevention,Average days to initiate TPT,Date of TPT initiation - Spectrum diagnosis date of index patient,,Contact & other risk group SPCR (Notification date of index case),numeric,,FALSE
+f150,150,ET,Scale up of TB prevention,TPT completion rate among those initiated on TPT during july to Dec 2025,Total HHcs completed TPT among those who are initiated on TPT during july to Dec 2025,Total HHCs initiated on TPT during july to Dec 2025,Contact & other risk group SPCR (Notification date of index case),ratio,PCT,FALSE
+f151,151,EU,Scale up of TB prevention,"No. of expanded other eligible high risk group enrolled (PLHIV, silicosis patients, renal dialysis candidates, immunosuppressed individuals)",,,Contact & other risk group SPCR (Enrollment date of TPT beneficiaries),numeric,,FALSE
+f152,152,EV,Scale up of TB prevention,Number of eligible expanded other risk group beneficiaries (enrolled-(active TB + TBI Negative)),Eligible = Total enrolled - ( Active TB case + CyTB -ve ) among other risk group indivuduals enrolled,--,Contact & other risk group SPCR - Other risk groups,numeric,,FALSE
+f153,153,EW,Scale up of TB prevention,Number of expanded other risk group beneficiaries initiated on TPT,Total number of expanded other high risk groups initiated on TPT among eligible,Total number of eligible expanded other high risk groups,Contact & other risk group SPCR - Other risk groups,ratio,PCT,FALSE
+f154,154,EX,Scale up of TB prevention,Challenges in TPT coverage,,,,textarea,,FALSE
+f155,155,EY,Scale up of TB prevention,Proposed solutions,,,,textarea,,FALSE
+f156,156,EZ,TB free GP certification status,No. of TB Free Panchayat (2025 Bronze),,,,numeric,,FALSE
+f157,157,FA,TB free GP certification status,No. of TB Free Panchayat (2025 Silver),,,,numeric,,FALSE
+f158,158,FB,TB free GP certification status,No. of TB Free Panchayat (2025 Gold),,,,numeric,,FALSE
+f159,159,FC,TB free GP certification status,No. of GPs pending for TB free certification,Total GPs - Tb free GPs (EZ+FA+FB),,,numeric,,FALSE
+f160,160,FD,TB free GP certification status,Reasons for pending GPs certifications,,,,textarea,,FALSE
+f161,161,FE,TB free GP certification status,Proposed solutions,,,,textarea,,FALSE
+f162,162,FF,Ni-kshay Poshan Yojana,Number of TB cases with updated Caste details & ABHA generated through face / biometric authentication (2026),,,Nikshay analytics/ Backend data,textarea,,TRUE
+f163,163,FG,Ni-kshay Poshan Yojana,Type of NPY support (Cash or Kind),,,,text,,FALSE
+f164,164,FH,Ni-kshay Poshan Yojana,Total no. of eligible TB patient provided at least 1 benefit of NPY (Jan to July 2026),,,Nikshay Dashboard / Beneficiary register,numeric,,FALSE
+f165,165,FI,Ni-kshay Poshan Yojana,Any additional support apart from NPY? (Yes/No),,,,yesno,,FALSE
+f166,166,FJ,Ni-kshay Poshan Yojana,If Yes mention details,,,,textarea,,FALSE
+f167,167,FK,Nikshay Mitra & EDNS,Total no. Consented TB patient of provided Nutrition kit atleast once (Jan to July 2026),,,PMTBMBA register Facility - Cuurent Date type- Notification date,numeric,,FALSE
+f168,168,FL,Nikshay Mitra & EDNS,Total no. Consented TB patient of provided Nutrition kit for entire duration of Treatment (Jan to July 2026),,,PMTBMBA register Facility - Cuurent Date type- Notification date,numeric,,FALSE
+f169,169,FM,Nikshay Mitra & EDNS,Is family food basket provided for the patients family? (Yes/ No),,,,yesno,,FALSE
+f170,170,FN,Nikshay Mitra & EDNS,Total number of notified current TB pts with BMI <18.5(2026),,,Notification current register,numeric,,FALSE
+f171,171,FO,Nikshay Mitra & EDNS,EDNS available ? Yes/ No,,,,yesno,,FALSE
+f172,172,FP,Jan Bhagidari/Community Engagement,Total elected representatives in the block ? ( MLAs/ PRIs/ Urban local bodies),,,,numeric,,FALSE
+f173,173,FQ,Jan Bhagidari/Community Engagement,Block level task force for TB Mukt Bharat elimination constituted ? Yes / No,1 Nodal officer supported by 5 My Bharat Volunteers and 5 NCC cadets registered as Nikshay Mitras,,,yesno,,FALSE
+f174,174,FR,Jan Bhagidari/Community Engagement,Class 1 nodal officers Identified? (Yes/ No),,,,yesno,,FALSE
+f175,175,FS,Jan Bhagidari/Community Engagement,5 My Bharat Volunteers identified? (Yes/ No),,,,yesno,,FALSE
+f176,176,FT,Jan Bhagidari/Community Engagement,5 NCC Cadets identifieed? (Yes/ No),,,,yesno,,FALSE
+f177,177,FU,Jan Bhagidari/Community Engagement,Total number Patients/ TPT Beneficiaries downloaded the TBMB Mobile App,,,TBMB Mobile App Backend data,numeric,,TRUE
+f178,178,FV,Jan Bhagidari/Community Engagement,Total Active users of TBMB Mobile App,,,TBMB Mobile App Backend data,numeric,,TRUE
+f179,179,FW,Jan Bhagidari/Community Engagement,Please specify advocacy activities conducted in 2026,,,,textarea,,FALSE
+f180,180,FX,Jan Bhagidari/Community Engagement,Please specify Communication activities for IEC conducted in 2026,,,,textarea,,FALSE
+f181,181,FY,Jan Bhagidari/Community Engagement,Please specify Social mobilisation activities conducted in 2026,,,,textarea,,FALSE
+f182,182,FZ,Supply Chain Management,TU drug store available? (Yes/No),,,,yesno,,FALSE
+f183,183,GA,Supply Chain Management,Whether Phsical Stock Verification has been done in the block in 2026? (Yes/No),,,,yesno,,FALSE
+f184,184,GB,Supply Chain Management,Qty of CY-TB vials available as on dd/mm/yyyy,,,Manual / DVDMS portal,numeric,,FALSE
+f185,185,GC,Supply Chain Management,Qty of 3HP available as on dd/mm/yyyy (number of tablets),,,Manual / DVDMS portal,numeric,,FALSE
