@@ -59,7 +59,17 @@ def login_screen():
                 if not username or not password:
                     st.error("Enter both username and password.")
                 else:
-                    user = db.verify_login(username.strip(), password)
+                    try:
+                        user = db.verify_login(username.strip(), password)
+                    except Exception as e:  # noqa: BLE001
+                        st.error(
+                            "Could not connect to the database — this is a configuration/network "
+                            "issue, not a wrong password. Check that [postgres] in Secrets matches "
+                            "a reachable instance (host/port/dbname/user/password/sslmode), and that "
+                            "the database allows inbound connections from this app."
+                        )
+                        st.caption(f"Details: {type(e).__name__}: {e}")
+                        return
                     if user is None:
                         st.error("Invalid username/password, or this account is deactivated.")
                     else:
