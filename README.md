@@ -1,7 +1,7 @@
 # Block Epi Info — Streamlit + AWS PostgreSQL
 
 Python/Streamlit port of the original R Shiny "Block Epi Info" NTEP data-capture
-app, backed by AWS PostgreSQL. See `/home/aswath/.claude/plans/humming-splashing-stearns.md`
+app. See `/home/aswath/.claude/plans/humming-splashing-stearns.md`
 for the full PRD (roles, data model, calculation logic, phased plan).
 
 ## 1. One-time setup
