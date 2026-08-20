@@ -13,13 +13,26 @@ for the full PRD (roles, data model, calculation logic, phased plan).
    pip install -r requirements.txt
    ```
 
-2. **Configure secrets.** Copy the template and fill in your real AWS
-   Postgres credentials and a master-admin bootstrap password:
-   ```bash
-   cp .streamlit/secrets_example.toml .streamlit/secrets.toml
-   # edit .streamlit/secrets.toml with real values
+2. **Configure secrets.** Create `.streamlit/secrets.toml` (gitignored — never
+   commit it) with your real AWS Postgres credentials and a master-admin
+   bootstrap password:
+   ```toml
+   [postgres]
+   host = "your-instance.xxxxxxxxxxxx.rds.amazonaws.com"
+   port = 5432
+   dbname = "block_epi_info"
+   user = "app_user"
+   password = "REPLACE_ME"
+   sslmode = "require"
+
+   # Used ONLY once, by scripts/init_db.py, to create the first master-admin
+   # login. After that account exists, these two values are no longer read
+   # by the running app - change the admin's real password via the in-app
+   # User Management screen instead of editing this file again.
+   [bootstrap]
+   master_admin_username = "admin"
+   master_admin_password = "REPLACE_ME_BEFORE_FIRST_RUN"
    ```
-   `.streamlit/secrets.toml` is gitignored — never commit it.
 
 3. **Create the schema, seed locations, and bootstrap the master admin.**
    Run once:
@@ -47,8 +60,8 @@ for the full PRD (roles, data model, calculation logic, phased plan).
 1. Push this `streamlit_app/` folder to a GitHub repo (secrets.toml stays out
    via `.gitignore`).
 2. Create the app on Streamlit Community Cloud pointing at `app.py`.
-3. In the app's **Settings → Secrets** panel, paste the same key/value
-   structure as `.streamlit/secrets_example.toml`, filled with your real
+3. In the app's **Settings → Secrets** panel, paste the same `[postgres]` /
+   `[bootstrap]` TOML structure shown in step 2 above, filled with your real
    AWS Postgres credentials — this is fed to the app as `st.secrets` exactly
    as a local `secrets.toml` would be.
 4. Before first traffic, run `python scripts/init_db.py` once against the
