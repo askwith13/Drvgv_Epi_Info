@@ -1,4 +1,4 @@
-# Block Epi Info — Streamlit + AWS PostgreSQL
+# Block Epi Info — Streamlit
 
 Python/Streamlit port of the original R Shiny "Block Epi Info" NTEP data-capture
 app. See `/home/aswath/.claude/plans/humming-splashing-stearns.md`
