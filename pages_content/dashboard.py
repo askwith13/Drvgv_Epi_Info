@@ -35,15 +35,16 @@ def render():
 
     vb_cols = st.columns(4)
     boxes = [
-        ("Total Blocks (target)", overall["total_blocks"] if overall else 0, "value-box-blue"),
-        ("Submitted (Final)", overall["submitted"] if overall else 0, "value-box-green"),
-        ("Saved as Draft", overall["draft"] if overall else 0, "value-box-yellow"),
-        ("Overall % Submitted", f'{overall["pct_submitted"] if overall else 0}%', "value-box-purple"),
+        ("Total Blocks (target)", overall["total_blocks"] if overall else 0, "value-box-blue", "fa-solid fa-map-location-dot"),
+        ("Submitted (Final)", overall["submitted"] if overall else 0, "value-box-green", "fa-solid fa-circle-check"),
+        ("Saved as Draft", overall["draft"] if overall else 0, "value-box-yellow", "fa-solid fa-file-pen"),
+        ("Overall % Submitted", f'{overall["pct_submitted"] if overall else 0}%', "value-box-purple", "fa-solid fa-chart-pie"),
     ]
-    for col, (label, val, css) in zip(vb_cols, boxes):
+    for col, (label, val, css, icon) in zip(vb_cols, boxes):
         with col:
             st.markdown(
-                f'<div class="value-box {css}"><div class="vb-number">{val}</div>'
+                f'<div class="value-box {css}"><i class="{icon} vb-icon"></i>'
+                f'<div class="vb-number">{val}</div>'
                 f'<div class="vb-label">{label}</div></div>',
                 unsafe_allow_html=True,
             )

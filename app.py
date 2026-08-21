@@ -11,6 +11,7 @@ import streamlit as st
 
 import auth
 import meta
+import widgets
 from pages_content import (
     backend_data,
     dashboard,
@@ -85,12 +86,23 @@ if not menu_items:
 if "current_tab" not in st.session_state or st.session_state["current_tab"] not in {t for t, _, _ in menu_items}:
     st.session_state["current_tab"] = menu_items[0][0]
 
+_sidebar_bkey = widgets.current_bkey()
+_section_pct = {}
+if _sidebar_bkey:
+    for s in meta.SECTIONS:
+        _, _, _section_pct[s] = widgets.section_progress(s, _sidebar_bkey)
+
 with st.sidebar:
     st.markdown("### Block Epi Info")
+    if _sidebar_bkey:
+        _, _, _o_pct = widgets.overall_progress(_sidebar_bkey)
+        st.caption(f"Overall progress: **{_o_pct:.0f}%**")
     for tab_id, label, icon in menu_items:
         active = st.session_state["current_tab"] == tab_id
+        pct = _section_pct.get(label)
+        btn_label = f"{icon}  {label}" if pct is None else f"{icon}  {label} ({pct:.0f}%)"
         st.markdown(f'<div class="{"nav-active" if active else ""}">', unsafe_allow_html=True)
-        if st.button(f"{icon}  {label}", key=f"nav_{tab_id}", width="stretch"):
+        if st.button(btn_label, key=f"nav_{tab_id}", width="stretch"):
             st.session_state["current_tab"] = tab_id
             st.rerun()
         st.markdown("</div>", unsafe_allow_html=True)

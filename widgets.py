@@ -253,6 +253,86 @@ def _render_naat_capacity_total(row, bkey: str):
 # ---------------------------------------------------------------------------
 # Collect every field's current value for saving (mirrors collect_values())
 # ---------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
+# Progress tracker (% of fields filled so far, live off session_state)
+# ---------------------------------------------------------------------------
+# Excludes backend fields (never editable here) and read-only computed fields
+# (category_total / naat_modules_reference / naat_capacity_total) - those are
+# derived from other fields, not something the user directly fills in.
+PROGRESS_FIELDS = meta.FORM_FIELDS.loc[
+    (meta.FORM_FIELDS.is_backend != "TRUE")
+    & (~meta.FORM_FIELDS.input_type.isin(
+        ["category_total", "naat_modules_reference", "naat_capacity_total"]
+    ))
+].reset_index(drop=True)
+
+
+def field_is_filled(row, bkey: str) -> bool:
+    fid = row["field_id"]
+    itype = row["input_type"]
+    if itype == "numeric":
+        return _live_value(bkey, fid) is not None
+    if itype == "yesno":
+        return _live_value(bkey, fid) in ("Yes", "No")
+    if itype in ("text", "textarea"):
+        v = _live_value(bkey, fid)
+        return bool(v and str(v).strip())
+    if itype == "multiselect":
+        return bool(_live_value(bkey, fid))
+    if itype == "ratio":
+        num_v = _live_value(bkey, f"{fid}_num")
+        den_v = _live_value(bkey, f"{fid}_den")
+        return num_v is not None and den_v is not None
+    if itype == "category_breakdown":
+        cfg = meta.CATEGORY_BREAKDOWN[fid]
+        ids = [f"{fid}_cat_{meta.slugify(c)}" for c in cfg["categories"]]
+        ids.append(f"{fid}_cat_other_count")
+        for cid in ids:
+            v = calculations._to_float(_live_value(bkey, cid))
+            if v is not None and v > 0:
+                return True
+        return False
+    return False
+
+
+def section_progress(section_name: str, bkey: str):
+    """Returns (filled, total, pct) for one section."""
+    rows = PROGRESS_FIELDS[PROGRESS_FIELDS.section == section_name]
+    total = len(rows)
+    if total == 0:
+        return 0, 0, 0.0
+    filled = sum(field_is_filled(r, bkey) for _, r in rows.iterrows())
+    return filled, total, filled / total * 100.0
+
+
+def overall_progress(bkey: str):
+    """Returns (filled, total, pct) across every section."""
+    total = len(PROGRESS_FIELDS)
+    if total == 0:
+        return 0, 0, 0.0
+    filled = sum(field_is_filled(r, bkey) for _, r in PROGRESS_FIELDS.iterrows())
+    return filled, total, filled / total * 100.0
+
+
+def current_bkey():
+    """The block key for whichever block is currently loaded in session_state,
+    or None if no block has been selected yet this session."""
+    return st.session_state.get("_loaded_block_key")
+
+
+def render_progress_bar(label: str, filled: int, total: int, pct: float):
+    fill_class = "progress-fill-green" if pct >= 100 else "progress-fill-blue"
+    st.markdown(
+        f'<div class="progress-wrap">'
+        f'<div class="progress-label"><span>{label}</span>'
+        f'<span>{filled} / {total} fields &middot; {pct:.0f}%</span></div>'
+        f'<div class="progress-track">'
+        f'<div class="progress-fill {fill_class}" style="width:{pct:.1f}%;"></div>'
+        f'</div></div>',
+        unsafe_allow_html=True,
+    )
+
+
 def collect_all_values(bkey: str) -> dict:
     vals = {}
     for _, row in meta.FORM_FIELDS.iterrows():

@@ -26,9 +26,14 @@ def render(section_name: str):
 
     bkey, rec = widgets.ensure_block_loaded(state, district, block, db.load_entry)
 
+    o_filled, o_total, o_pct = widgets.overall_progress(bkey)
+    widgets.render_progress_bar("Overall progress (all sections)", o_filled, o_total, o_pct)
+
     with st.container(border=True):
         st.markdown(f'<div class="box-title">{section_name}</div>', unsafe_allow_html=True)
         st.caption(f"Reporting for: **{block}**, {district}, {state}")
+        s_filled, s_total, s_pct = widgets.section_progress(section_name, bkey)
+        widgets.render_progress_bar("This section", s_filled, s_total, s_pct)
         rows = meta.FORM_FIELDS[meta.FORM_FIELDS.section == section_name]
         _render_grid(rows, bkey, rec)
 

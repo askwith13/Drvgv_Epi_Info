@@ -121,13 +121,31 @@ div.btn-primary-wrap .stButton > button {
 
 /* Value boxes on the Admin Dashboard */
 .value-box {
+  position: relative; overflow: hidden;
   border-radius: 3px; color: #fff; padding: 14px 18px; margin-bottom: 10px;
 }
 .value-box .vb-number { font-size: 28px; font-weight: 700; }
 .value-box .vb-label { font-size: 13px; opacity: 0.9; }
+.value-box .vb-icon {
+  position: absolute; top: 8px; right: 14px;
+  font-size: 42px; opacity: 0.3; line-height: 1;
+}
 .value-box-blue { background-color: var(--admlte-header); }
 .value-box-green { background-color: var(--admlte-success); }
 .value-box-yellow { background-color: var(--admlte-warning); }
 .value-box-purple { background-color: var(--admlte-purple); }
 
 .login-wrapper { margin-top: 24px; margin-bottom: 8px; }
+
+/* Progress tracker (% of fields filled) */
+.progress-wrap { margin-bottom: 14px; }
+.progress-label {
+  display: flex; justify-content: space-between; align-items: baseline;
+  font-size: 13px; font-weight: 600; color: #444; margin-bottom: 4px;
+}
+.progress-track {
+  background: #E9ECEF; border-radius: 6px; height: 12px; overflow: hidden;
+}
+.progress-fill { height: 100%; border-radius: 6px; transition: width .3s ease; }
+.progress-fill-blue { background-color: var(--admlte-header); }
+.progress-fill-green { background-color: var(--admlte-success); }

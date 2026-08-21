@@ -62,6 +62,9 @@ def render():
         else:
             st.markdown("*No data saved yet for this block — fill in the sections and save.*")
 
+        filled, total, pct = widgets.overall_progress(bkey)
+        widgets.render_progress_bar("Overall progress (all sections)", filled, total, pct)
+
     with st.container(border=True):
         st.markdown('<div class="box-title box-title-info">2. Fill in each section from the menu on the left, '
                     'then save</div>', unsafe_allow_html=True)
